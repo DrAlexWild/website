@@ -1,0 +1,138 @@
+body{background-color:black}
+	
+
+
+html,body {
+	font-family: "Roboto", sans-serif;
+	max-width: 1440px;
+ 	margin: auto;
+}
+
+	 .top_menu{
+	 	padding: 8px 16px;
+    	float: center;
+    	width: auto;
+    	border: solid lightblue;
+    	display: block;
+    	outline: 0;
+    	color:white;
+    	background-color:#333333;
+    	text-align:center;
+    	font-size:30px;
+    	font-family: impact;
+    	position: static;
+    }
+
+a{  color: white;
+	text-decoration:none;
+	padding: 20px;
+	
+}
+
+a:hover{
+	border: solid lightblue ;
+	border-radius: 15px;
+	padding: 7px;
+	margin:10px;
+	background-color:#A0A0A0;
+
+}
+
+
+
+.grid{
+	color:black;
+	display:grid;
+	grid-template-columns:repeat(2,2fr);
+	grid-auto-rows:minmax(100px,auto);
+	padding:;
+    margin: 20px;
+    border: 15px solid lightblue;
+    font-size:18px;
+    grid-row-gap:15px;
+    background: lightblue;
+    grid-column-gap:15px;
+    
+
+}
+.grid > div:nth-child(even){
+	
+
+}
+.grid > div:nth-child(odd){
+	
+
+}
+.titles{
+	color:black;
+	font-size:18px;
+	font-color:white;
+	margin:20px;
+	border: 15px solid lightblue;
+	background: lightblue;
+	font-family: 'Arial black';
+
+}
+
+.tabs{
+	color:black;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 15px;
+    margin: 20px;
+    background-color:lightblue;
+    font-family:impact;
+    border:20px;
+    font-size: 36px;
+}
+
+img{
+	max-width: 600px;
+	max-height: : 400px;
+	
+
+	align-self: top;
+}
+.link{
+	color:black;
+	font-size:18px;
+	font-color:white;
+	font-family: 'Arial black';
+}
+
+.formal{
+	margin: 20px;
+	border:solid #333333 8px;
+	padding: 15px;
+	font-size: 18px;
+	line-height: 40px;
+	font-weight:100;
+	font-family: 'Courier New';
+	background: lightblue;
+	text-align:left;
+
+	
+
+}
+.hobbies{
+	text-align:center;
+	margin: 80px;
+	border:solid lightblue ;
+	border-radius: 50px;
+	border-width: 5px;
+	padding: 15px;
+	font-size: 24px;
+	line-height: 40px;
+	background-color:#333333;
+	font-weight:100;
+	font-family: 'Courier New';
+	color:white;
+
+}
+
+.cyclingimages{
+	text-align:center;
+	min-height: 700px;
+
+}
